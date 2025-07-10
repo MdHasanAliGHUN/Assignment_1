@@ -36,10 +36,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
-section {
-  padding: 50px 0px;
+.section-style {
+  padding: 70px 0px;
   margin-bottom: 60px;
-  border: 1px solid;
 }
 
 /* HEADER STYLE START FROM HERE */
@@ -87,7 +86,7 @@ LIVE PREVIEW SECTION STYLE START FROM HERE
   font-size: 40px;
 }
 .live-preview-section p {
-  font-weight: 500px;
+  font-weight: 500;
   margin: 15px 0;
   max-width: 600px;
   text-transform: capitalize;
@@ -96,3 +95,39 @@ LIVE PREVIEW SECTION STYLE START FROM HERE
   width: 320px;
   border-radius: 20px;
 }
+
+/* 
+------------------------------------------
+USERS STATE SECTION STYLE START FROM HERE
+------------------------------------------
+*/
+.user-stats-section {
+  background-color: #4e47ff;
+  border-radius: 10px;
+}
+.user-stats-section h2 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 32px;
+}
+.user-stats-section-container{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+}
+.user-stats-section-container h1{
+    display: flex;
+    justify-content:space-around;
+    font-size: 40px;
+}
+.user-stats-section-container p{
+    display: flex;
+    justify-content:space-around;
+    font-size: 13px;
+    color: #d2c5c5;
+}
+/* 
+------------------------------------------=======
+What Our Users Say SECTION STYLE START FROM HERE
+-------------------------------------------------
+*/
