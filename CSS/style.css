@@ -71,3 +71,28 @@ nav {
   font-weight: 700;
   margin-bottom: 20px;
 }
+/* 
+------------------------------------------
+LIVE PREVIEW SECTION STYLE START FROM HERE
+------------------------------------------
+*/
+.live-preview-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.live-preview-section h2 {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+.live-preview-section p {
+  font-weight: 500px;
+  margin: 15px 0;
+  max-width: 600px;
+  text-transform: capitalize;
+}
+.live-preview-section img {
+  width: 320px;
+  border-radius: 20px;
+}
