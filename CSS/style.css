@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+/* 
+===========================================
+REUSABLE UTILITY CLASSES 
+===========================================
+*/
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+button {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #4e47ff;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+section {
+  padding: 50px 0px;
+  margin-bottom: 60px;
+  border: 1px solid;
+}
+
+/* HEADER STYLE START FROM HERE */
+header {
+  background-image: url("../Assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+/* NAVBAR STYLE START FROM HERE */
+nav {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.banner {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
