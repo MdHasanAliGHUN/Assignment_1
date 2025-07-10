@@ -6,7 +6,7 @@
 
 body {
   height: 100%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.5;
   background-color: #f5f8ff;
 }
@@ -33,6 +33,12 @@ button {
   background-color: #4e47ff;
   color: white;
 }
+button:hover {
+  background-color: #3d36d1;
+  transform: scale(1.03);
+  transition: all 0.3s ease;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -103,10 +109,13 @@ USERS STATE SECTION STYLE START FROM HERE
 ------------------------------------------
 */
 .user-stats-section {
+  font-family: sans-serif;
   background-color: #4e47ff;
   border-radius: 10px;
+  color: white;
 }
 .user-stats-section h2 {
+  font-family: sans-serif;
   text-align: center;
   font-weight: bolder;
   font-size: 32px;
@@ -120,12 +129,12 @@ USERS STATE SECTION STYLE START FROM HERE
   display: flex;
   justify-content: space-around;
   font-size: 40px;
+  
 }
 .user-stats-section-container p {
   display: flex;
   justify-content: space-around;
   font-size: 13px;
-  color: #d2c5c5;
 }
 /* 
 ------------------------------------------=======
@@ -266,11 +275,50 @@ CONTACT SECTION STYLE START FROM HERE
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  transition:  0.3s ease;
+  transition: 0.3s ease;
 }
 
 .contact-form button:hover {
   background-color: #4338ca;
 }
+/* 
+------------------------------------------=======
+FOOTER SECTION STYLE START FROM HERE
+-------------------------------------------------
+*/
+.footer {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
 
+.logo {
+  color: #4f46e5;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
+}
 
+.description {
+  color: #6b7280;
+  font-size: 14px;
+  margin: 15px 0 30px;
+  line-height: 1.6;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: #6b7280;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #4f46e5;
+}
